@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "nome_do_app",
+    "name": "Studio Arabesque",
     "slug": "nome_do_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
